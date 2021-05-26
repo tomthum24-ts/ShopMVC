@@ -1,0 +1,119 @@
+﻿
+@model List<Model.EF.Slide>
+@{
+    /**/
+
+    var Slide2 = (List<Model.EF.Slide>)ViewBag.Slide2;
+    var Slide3 = (List<Model.EF.Slide>)ViewBag.Slide3;
+}
+<style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 50%;
+    }
+</style>
+
+<div class="container">
+    <div class="row no-gutters"style="max-height:500px">
+        @*Silde 1 chính*@
+        <div class="col-12 col-sm-6 col-md-8">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    @foreach (var item in Model)
+                    {
+                        <li data-target="#demo" data-slide-to="@item.DisplayOrder" class="@item.Classmain"></li>
+                    }
+
+                </ul>
+                <div class="carousel-inner">
+                    @foreach (var item in Model)
+                    {
+                        <div class="carousel-item @item.Classmain" >
+                            <a href="@item.Link">
+                                <img src="@item.Image" alt="@item.Description"style="width:100%;height:100%" >
+                                <div class="carousel-caption">
+                                    @*<h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>*@
+                                </div>
+                            </a>
+                        </div>
+                    }
+
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        @*SLide phụ*@
+        <div class="d-none d-sm-block col-6 col-md-4 ">
+            @*Slide 2 phụ*@
+            <div id="demo2" class="carousel slide" data-ride="carousel" style="margin-left:1px;margin-top:1px">
+                <ul class="carousel-indicators">
+                    @foreach (var item in Slide2)
+                    {
+                        <li data-target="#demo" data-slide-to="@item.DisplayOrder" class="@item.Classmain"></li>
+                    }
+
+                </ul>
+                <div class="carousel-inner">
+                    @foreach (var item in Slide2)
+                    {
+                        <div class="carousel-item @item.Classmain">
+                            <a href="@item.Link">
+                                <img src="@item.Image" alt="@item.Description" width="1100" height="500">
+                                <div class="carousel-caption">
+                                    <h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>
+                                </div>
+                            </a>
+                        </div>
+                    }
+
+                </div>
+                <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo2" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            @*slide 3 phụ*@
+            <div id="demo3" class="carousel slide" data-ride="carousel" style="margin-left:1px;margin-top:1px">
+                <ul class="carousel-indicators">
+                    @foreach (var item in Slide2)
+                    {
+                        <li data-target="#demo3" data-slide-to="@item.DisplayOrder" class="@item.Classmain"></li>
+                    }
+
+                </ul>
+                <div class="carousel-inner">
+                    @foreach (var item in Slide3)
+                    {
+                        <div class="carousel-item @item.Classmain">
+                            <a href="@item.Link">
+                                <img src="@item.Image" alt="@item.Description" width="1100" height="500">
+                                <div class="carousel-caption">
+                                    <h3>Los Angeles</h3>
+                                    <p>We had such a great time in LA!</p>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+                <a class="carousel-control-prev" href="#demo3" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo3" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+

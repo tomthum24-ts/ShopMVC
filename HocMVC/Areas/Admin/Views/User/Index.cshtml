@@ -1,0 +1,69 @@
+﻿@model PagedList.IPagedList<Model.EF.User> 
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Quản lý người dùng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section jsfooter{
+<script src="/Public/Controller/UserController.js"></script>
+    }
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Danh sách nhân viên</h3>
+        <div class="form-group">
+            <a href="/Admin/user/Create">
+                <button class="btn btn-success btn-lg float-right"
+                        type="submit">
+                    Thêm mới
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>UserName</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>trạng thái</th>
+                    <th >#</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.ID">
+                        <td>@item.UserName</td>
+                        
+                        <td> @item.Name</td>
+                        <td>@item.Address</td>
+                        <td>@item.Email</td>
+                        <td> @item.Phone</td>
+                        <td><a href="#" class="btn-active" data-id="@item.ID">@Html.Raw(item.Status ? "Kích hoạt" : "Khoá")</a></td>
+                        <td>
+                            <a href="/Admin/User/Edit/@item.ID">Sửa</a>|
+                            @Ajax.ActionLink("Xóa","Delete",new {@id=item.ID },new AjaxOptions
+                       {
+                           Confirm="Bạn có muốn xóa user này",
+                           OnComplete = "$('#row_" + @item.ID + "').remove()",
+                           HttpMethod = "Delete"
+                       })
+                        </td>
+                    </tr>
+                 }
+
+
+
+            </tbody>
+
+        </table>
+        @*@Html.PagedListPager(Model,Page=>Url.Action("Index",new {Page }))*@
+    </div>
+    <!-- /.card-body -->
+</div>

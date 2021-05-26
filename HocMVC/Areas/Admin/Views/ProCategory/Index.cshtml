@@ -1,0 +1,121 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+    input:checked + .slider {
+        background-color: #2196F3;
+    }
+
+    input:focus + .slider {
+        box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+</style>
+@section jsfooter{
+    <script src="/Public/dist/js/mustache.min.js"></script>
+    <script src="/Public/Controller/ProcateController.js"></script>
+}
+<h2>Product category</h2>
+<div class="card-body">
+    <table id="example1" class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>Thư mục cha</td>
+                <td>Ngày tạo</td>
+                <td>Status</td>
+            </tr>
+        </thead>
+        <tbody id="tblData"></tbody>
+    </table>
+    <script id="data-template" type="x-tmpl-mustache">
+        <tr id="row">
+            <td>{{ID}}</td>
+            <td>{{Name}}</td>
+            <td>{{ParentID}}</td>
+            <td id="date">{{CreatedDate}}</td>
+            <td><a href="#" class="btn-active" data-id="{{ID}}">
+                <label class="switch">
+                 <input  type={{{Status}}}>
+                 <span class="slider round"></span>
+                </label></a>
+            </td>
+            @*<td>
+            
+                <label class="switch">
+                    <input data-id="{{ID}}" type={{{Status}}}>
+                    <span class="slider round"></span>
+                </label>
+            </td>*@
+            <td><a href="#" onclick="changestatus" id="trangthai" class="trangthai" data-id="{{ID}}">{{{Status}}}</a></td>
+            <td>
+                <button class="btn btn-primary btn-edit" data-id="{{ID}}">Edit</button>
+                <button class="btn btn-danger btn-delete" data-id="{{ID}}">Delete</button>
+            </td>
+        </tr>
+
+    </script>
+    </div>
+    @*<script>
+            var dateString = "\/Date(1334514600000)\/".substr(6);
+            var currentTime = new Date(parseInt(dateString));
+            var month = ("0" + (currentTime.getMonth() + 1)).slice(-2);
+            var day = ("0" + currentTime.getDate()).slice(-2);
+            var year = currentTime.getFullYear();
+            var dateString = year + '-' + month + '-' + day;
+            alert(dateString);
+        </script>*@

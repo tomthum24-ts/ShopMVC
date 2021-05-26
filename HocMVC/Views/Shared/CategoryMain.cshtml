@@ -1,0 +1,59 @@
+﻿
+@model List<Model.EF.ProductCategory>
+<div class="cat_menu_container">
+    <div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
+        <div class="cat_burger"><span></span><span></span><span></span></div>
+        <div class="cat_menu_text">Danh mục sản phẩm</div>
+    </div>
+    <ul class="cat_menu">
+        @foreach (var item in Model.Where(x => x.ParentID == null && x.ParentID2==null ))
+        {
+            var child1 = Model.Where(x => x.ParentID == item.ID && x.ParentID2==null);
+      
+            var parentClass = child1.Count() > 0 ? "fas fa-chevron-right" : "";
+            <li class="hassubs">
+                <a href="/san-pham/@item.MetaTitle-@item.ID">@item.Name <i class="@parentClass"></i></a>
+                <ul>
+
+                    @foreach (var childItem in child1)
+                    {
+                        var child2 = Model.Where(x => x.ParentID == item.ID && x.ParentID2 == childItem.ID);
+                        var parentClass2 = child1.Count() > 0 ? "fas fa-chevron-right" : "";
+                    <li class="hassubs">
+                        @*<a href="/san-pham/@childItem.MetaTitle-@childItem.ID">
+            @childItem.Name <i class="@parentClass2"></i>
+        </a>*@
+                        <a href="/san-pham/@childItem.MetaTitle-@childItem.ID">@childItem.Name <i class="@parentClass2"></i></a>
+                        <ul>
+                            @foreach (var Chilitem2 in child2)
+                            {
+                                <li>
+                                    <a href="/san-pham/@Chilitem2.MetaTitle-@Chilitem2.ID">
+                                        @Chilitem2.Name <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </li>
+
+                            }
+                        </ul>
+                    </li>
+                        
+                    }
+                </ul>
+            </li>
+        }
+            @*<ul class="cat_menu">
+                <li class="hassubs">
+                    <a href="#">Hardware<i class="fas fa-chevron-right"></i></a>
+                    <ul>
+                        <li class="hassubs">
+                            <a href="#">Cấp 2<i class="fas fa-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">cấp 3<i class="fas fa-chevron-right"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>*@
+
+    </ul>
+    </div>

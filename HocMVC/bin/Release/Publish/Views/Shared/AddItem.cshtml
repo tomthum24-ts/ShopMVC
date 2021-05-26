@@ -1,0 +1,94 @@
+﻿@model List<HocMVC.Models.CartItem>
+<style>
+    i {
+        animation: shake 2s;
+        animation-iteration-count: infinite;
+    }
+
+    .Call {
+        animation: shake 2s;
+        animation-iteration-count: infinite;
+    }
+
+    shake {
+        0%
+
+    {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+    }
+</style>
+@if (Model.Count > 0)
+{
+    <nav class="navbar navbar-expand-md  fixed-bottom d-lg-none" style="background-color:#0e8ce4;border-radius: 30px;">
+        @*<a href="https://zalo.me/0783736892"><div class="col" style="width:20%"><img src="~/Public/zalo2.png" style="max-height:30px;max-width:50px"></div></a>*@
+
+        <a href="/gio-hang">
+            <div class="col" style="width:20%">
+                <img src="~/Public/Cart1.png" alt="" style="max-height:30px;max-width:50px">
+                <div class="cart_icon">
+                    <div class="cart_count" style="background-color:#FF4500"><span>@Model.Count</span></div>
+                </div>
+            </div>
+        </a>
+        <button type="submit" class="btn btn-danger btn-lg"><strong>Cho vào giỏ<i class="fas fa-cart-plus"></i></strong></button>
+        <a href="tel:0783736892"><div class="col" style="width:20%"><img class="call" src="~/Public/call.png" style="max-height:30px;max-width:50px"></div></a>
+    </nav>
+}
+else
+{
+    <nav class="navbar navbar-expand-md  fixed-bottom d-lg-none" style="background-color:#0e8ce4;border-radius: 30px;">
+        @*<a href="https://zalo.me/0783736892"><div class="col" style="width:20%"><img src="~/Public/zalo2.png" style="max-height:30px;max-width:50px"></div></a>*@
+
+        <a href="/gio-hang">
+            <div class="col" style="width:20%">
+                <img src="~/Public/Cart1.png" alt="" style="max-height:30px;max-width:50px">
+                <div class="cart_icon">
+                    <div class="cart_count" style="background-color:#FF4500"><span>0</span></div>
+                </div>
+            </div>
+        </a>
+        <button type="submit" class="btn btn-danger btn-lg"><strong>Cho vào giỏ<i class="fas fa-cart-plus"></i></strong></button>
+        <a href="tel:0783736892"><div class="col" style="width:20%"><img class="call" src="~/Public/call.png" style="max-height:30px;max-width:50px"></div></a>
+    </nav>
+}

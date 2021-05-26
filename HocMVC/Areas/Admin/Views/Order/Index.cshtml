@@ -1,0 +1,64 @@
+﻿@model List<Model.EF.Order>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section jsfooter{
+    <script src="~/Public/Controller/ProductController.js"></script>
+}
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Đơn hàng</h3>
+        <div class="form-group">
+            <a href="/Admin/product/Create">
+                <button class="btn btn-success btn-lg float-right"
+                        type="submit">
+                    Thêm mới
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên người nhận</th>
+                    <th>Số điện thoại</th>
+                    <th>Địa chỉ</th>
+                    <th>Ngày đặt hàng</th>
+                    <th>Ghi chú</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.ID">
+                        <td>@item.ID</td>
+                        <td>@item.ShipName</td>
+                        <td>@item.ShipMobile</td>
+                        <td>@item.ShipAddress</td>
+                        <td>@item.CreatedDate</td>
+                        <td>@item.Note</td>
+                        <td>
+                            <a href="/Admin/Order/Detail/@item.ID"><button type="button" class="btn btn-primary">Xem</button></a>
+                        </td>
+                    </tr>
+                }
+
+
+
+            </tbody>
+
+        </table>
+        @*@Html.PagedListPager(Model,Page=>Url.Action("Index",new {Page }))*@
+    </div>
+    <!-- /.card-body -->
+</div>
+
+

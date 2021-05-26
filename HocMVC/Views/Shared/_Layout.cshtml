@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="@ViewBag.Keywords">
+    <meta name="description" content="@ViewBag.Description">
+    @RenderSection("OpenGraph", required: false)
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/bootstrap4/bootstrap.min.css">
+    <link href="/Public/Layout/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/shop_styles.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/shop_responsive.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/blog_styles.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/blog_responsive.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/product_styles.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/product_responsive.css">
+    <link href="/Public/Layout/styles/bootstrap4/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Public/dist/css/Layout.css" rel="stylesheet" />
+    @{Html.RenderAction("Script_Header", "Home");}
+</head>
+
+<body>
+
+    <div class="super_container">
+
+        <!-- Header -->
+
+        <header class="header">
+
+            <!-- Top Bar -->
+            @*<div class="top_bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col d-flex flex-row">
+                                <div class="top_bar_contact_item"><div class="top_bar_icon"><img src="/Public/Layout/images/phone.png" alt=""></div>0783736892</div>
+                                <div class="top_bar_contact_item"><div class="top_bar_icon"><img src="/Public/Layout/images/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
+                                <div class="top_bar_content ml-auto">
+                                    <div class="top_bar_menu">
+                                        <ul class="standard_dropdown top_bar_dropdown">
+                                            <li>
+                                                <a href="#">English<i class="fas fa-chevron-down"></i></a>
+                                                <ul>
+                                                    <li><a href="#">Italian</a></li>
+                                                    <li><a href="#">Spanish</a></li>
+                                                    <li><a href="#">Japanese</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">$ US dollar<i class="fas fa-chevron-down"></i></a>
+                                                <ul>
+                                                    <li><a href="#">EUR Euro</a></li>
+                                                    <li><a href="#">GBP British Pound</a></li>
+                                                    <li><a href="#">JPY Japanese Yen</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="top_bar_user">
+                                        <div class="user_icon"><img src="/Public/Layout/images/user.svg" alt=""></div>
+                                        <div><a href="#">Register</a></div>
+                                        <div><a href="#">Sign in</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>*@
+
+            <!-- Header Main -->
+
+            <div class="header_main">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- Logo -->
+                        <a href="/">
+                            <div class="col-lg-4 col-sm-3 col-3 order-1">
+                                <div class="logo_container">
+                                    <div class="logo"><a href="/">Web</a></div>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Search -->
+                        <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                            <div class="header_search">
+                                <div class="header_search_content">
+                                    <div class="header_search_form_container">
+                                        <form action="/tim-kiem" method="get" class="header_search_form clearfix">
+                                            <input id="txtKeyword" type="search" name="keyword" required="required" class="header_search_input" placeholder="Tìm sản phẩm.."><input type="submit" value="">
+                                            <div class="custom_dropdown">
+                                                <div class="custom_dropdown_list">
+                                                    <span class="custom_dropdown_placeholder clc">All Categories</span>
+                                                    <i class="fas fa-chevron-down"></i>
+                                                    <ul class="custom_list clc">
+                                                        <li><a class="clc" href="#">All Categories</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="header_search_button trans_300" value="Submit"><img src="/Public/Layout/images/search.png" alt=""></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Wishlist -->
+                        <div class="col-lg-2 col-9 order-lg-3 order-2 text-lg-left text-right">
+                            <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+                                @*<div class="wishlist d-flex flex-row align-items-center justify-content-end">
+                                        <div class="wishlist_icon"><img src="/Public/Layout/images/heart.png" alt=""></div>
+                                        <div class="wishlist_content">
+                                            <div class="wishlist_text"><a href="#">Wishlist</a></div>
+                                            <div class="wishlist_count">115</div>
+                                        </div>
+                                    </div>*@
+
+                                <!-- Cart -->
+                                @{Html.RenderAction("HeaderCart", "Home");}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Navigation -->
+
+            <nav class="main_nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="main_nav_content d-flex flex-row">
+
+                                <!-- Categories Menu -->
+                                @*@RenderSection("Category", required: false)*@
+                                @{Html.RenderAction("CategoryMain", "Home"); }
+
+                                <!-- Main Nav Menu -->
+
+                                <div class="main_nav_menu ml-auto">
+                                    <ul class="standard_dropdown main_nav_dropdown">
+                                        @{Html.RenderAction("Mainmenu", "Home"); }
+
+                                    </ul>
+                                </div>
+
+                                <!-- Menu Trigger -->
+
+                                <div class="menu_trigger_container ml-auto">
+                                    <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
+                                        <div class="menu_burger">
+                                            <div class="menu_trigger_text">menu</div>
+                                            <div class="cat_burger menu_burger_inner"><span></span><span></span><span></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Menu -->
+
+            <div class="page_menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="page_menu_content">
+
+                                <div class="page_menu_search">
+                                    <form action="/tim-kiem" method="get" class="header_search_form clearfix">
+                                        <input id="txtKeyword" type="search" name="keyword" required="required" class="page_menu_search_input" placeholder="Tìm sản phẩm..">@*<input type="submit" value="">*@
+                                        @*<input id="txtKeyword" type="search" name="keyword" required="required" class="header_search_input" placeholder="Tìm sản phẩm..">*@
+                                    </form>
+                                </div>
+                                <ul class="page_menu_nav">
+
+                                    <li class="page_menu_item">
+                                        @{Html.RenderAction("MainmenuMobile", "Home"); }
+                                    </li>
+                                </ul>
+
+                                <div class="menu_contact">
+                                    <div class="menu_contact_item"><div class="menu_contact_icon"><img src="/Public/Layout/images/phone_white.png" alt=""></div>+38 068 005 3570</div>
+                                    <div class="menu_contact_item"><div class="menu_contact_icon"><img src="/Public/Layout/images/mail_white.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- Home -->
+        @RenderSection("Slide", required: false)
+
+
+
+        <!-- Shop -->
+        <div class="content-wrapper">
+            @if (TempData["AlertMessage"] != null)
+            {
+                <div id="AlertBox" class="alert @TempData["AlertType"] hide">
+                    @TempData["AlertMessage"]
+                </div>
+            }
+        </div>
+        <div class="shop1">
+            <div class="container">
+                <div class="row">
+                    <!-- Shop Content -->
+                    @RenderBody()
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- Copyright -->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="copyright_container d-flex flex-sm-row flex-column align-items-center justify-content-start">
+                            <div class="copyright_content">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with me<i class="fa fa-heart" aria-hidden="true"></i>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                            <div class="logos ml-sm-auto">
+                                <ul class="logos_list">
+                                    <li><a href="#"><img src="/Public/Layout/images/logos_1.png" alt=""></a></li>
+                                    <li><a href="#"><img src="/Public/Layout/images/logos_2.png" alt=""></a></li>
+                                    <li><a href="#"><img src="/Public/Layout/images/logos_3.png" alt=""></a></li>
+                                    <li><a href="#"><img src="/Public/Layout/images/logos_4.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+
+        @*<script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5dd3a690d96992700fc82041/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>*@
+
+    </section>
+ 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/Public/Layout/js/jquery-3.3.1.min.js"></script>
+    <script src="/Public/Layout/styles/bootstrap4/popper.js"></script>
+    <script src="/Public/Layout/styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="/Public/Layout/plugins/greensock/TweenMax.min.js"></script>
+    <script src="/Public/Layout/plugins/greensock/TimelineMax.min.js"></script>
+    <script src="/Public/Layout/plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="/Public/Layout/plugins/greensock/animation.gsap.min.js"></script>
+    <script src="/Public/Layout/plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="/Public/Layout/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="/Public/Layout/plugins/easing/easing.js"></script>
+    <script src="/Public/Layout/plugins/Isotope/isotope.pkgd.min.js"></script>
+    <script src="/Public/Layout/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="/Public/Layout/js/shop_custom.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/Public/Controller/baseController.js"></script>
+    <script src="~/Public/dist/js/demo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    @RenderSection("jsFooter", required: false)
+</body>
+
+</html>

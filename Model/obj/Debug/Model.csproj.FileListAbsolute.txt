@@ -1,0 +1,75 @@
+C:\Users\MSI\source\repos\HocMVC\Model\bin\Debug\Model.dll.config
+C:\Users\MSI\source\repos\HocMVC\Model\bin\Debug\Model.dll
+C:\Users\MSI\source\repos\HocMVC\Model\bin\Debug\Model.pdb
+C:\Users\MSI\source\repos\HocMVC\Model\bin\Debug\EntityFramework.dll
+C:\Users\MSI\source\repos\HocMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MSI\source\repos\HocMVC\Model\bin\Debug\EntityFramework.xml
+C:\Users\MSI\source\repos\HocMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MSI\source\repos\HocMVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\HocMVC\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\MSI\source\repos\HocMVC\Model\obj\Debug\Model.dll
+C:\Users\MSI\source\repos\HocMVC\Model\obj\Debug\Model.pdb
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\Model.dll.config
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\Model.dll
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\Model.pdb
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\EntityFramework.dll
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\PagedList.dll
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\PagedList.Mvc.dll
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\EntityFramework.xml
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\PagedList.xml
+D:\Code\3. Wed\7. MVC\HocMVC\Model\bin\Debug\PagedList.Mvc.xml
+D:\Code\3. Wed\7. MVC\HocMVC\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Code\3. Wed\7. MVC\HocMVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Code\3. Wed\7. MVC\HocMVC\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Code\3. Wed\7. MVC\HocMVC\Model\obj\Debug\Model.dll
+D:\Code\3. Wed\7. MVC\HocMVC\Model\obj\Debug\Model.pdb
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\Model.dll.config
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\Model.dll
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\Model.pdb
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\EntityFramework.dll
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\PagedList.dll
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\PagedList.Mvc.dll
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\EntityFramework.xml
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\PagedList.xml
+D:\Code\3. Wed\7. MVC\Cũ\Model\bin\Debug\PagedList.Mvc.xml
+D:\Code\3. Wed\7. MVC\Cũ\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Code\3. Wed\7. MVC\Cũ\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Code\3. Wed\7. MVC\Cũ\Model\obj\Debug\Model.dll
+D:\Code\3. Wed\7. MVC\Cũ\Model\obj\Debug\Model.pdb
+D:\Code\3. Wed\7. MVC\Cũ\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\Model.dll.config
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\Model.dll
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\Model.pdb
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\EntityFramework.dll
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\PagedList.dll
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\PagedList.Mvc.dll
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\EntityFramework.xml
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\PagedList.xml
+D:\Code\3. Wed\7. MVC\Cu\Model\bin\Debug\PagedList.Mvc.xml
+D:\Code\3. Wed\7. MVC\Cu\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Code\3. Wed\7. MVC\Cu\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Code\3. Wed\7. MVC\Cu\Model\obj\Debug\Model.csproj.CopyComplete
+D:\Code\3. Wed\7. MVC\Cu\Model\obj\Debug\Model.dll
+D:\Code\3. Wed\7. MVC\Cu\Model\obj\Debug\Model.pdb
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\Model.dll.config
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\Model.dll
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\Model.pdb
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\EntityFramework.dll
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\PagedList.dll
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\EntityFramework.xml
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\PagedList.xml
+C:\Users\MSI\Desktop\aa\Cu\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\MSI\Desktop\aa\Cu\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\aa\Cu\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\aa\Cu\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\MSI\Desktop\aa\Cu\Model\obj\Debug\Model.dll
+C:\Users\MSI\Desktop\aa\Cu\Model\obj\Debug\Model.pdb

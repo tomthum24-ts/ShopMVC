@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section jsfooter{
+    <script src="/Public/dist/js/mustache.min.js"></script>
+    <script src="/Public/Controller/ProcateController.js"></script>
+}
+<h2>Product category</h2>
+<table id="body" class="table table-bordered table-striped">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Thư mục cha</td>
+        <td>CreatedDate</td>
+        <td>Status</td>
+    </tr>
+    <tbody id="tblData"></tbody>
+</table>
+<script id="data-template" type="x-tmpl-mustache">
+    <tr>
+        <td>{{ID}}</td>
+        <td>{{Name}}</td>
+        <td>{{ParentID}}</td>
+        <td>{{CreatedDate}}</td>
+        <td>{{{Status}}}</td>
+        <td>
+            <button class="btn btn-primary btn-edit" data-id="{{ID}}">Edit</button>
+            <button class="btn btn-danger btn-delete" data-id="{{ID}}">Delete</button>
+        </td>
+    </tr>
+</script>
+

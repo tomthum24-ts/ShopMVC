@@ -1,0 +1,116 @@
+﻿@model List<HocMVC.Models.CartItem>
+@{
+    ViewBag.Title = "Payment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .container {
+        max-width: 960px;
+    }
+
+    .lh-condensed {
+        line-height: 1.25;
+    }
+</style>
+<div class="container">
+    <div class="py-5 text-center">
+        <h2>Đơn hàng của bạn</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-muted">Đặt hàng</span>
+                <span class="badge badge-secondary badge-pill"></span>
+            </h4>
+            @if (ViewBag.Total != null)
+            {
+                <ul class="list-group mb-3 sticky-top">
+
+                    @foreach (var item in Model)
+                    {
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <div>
+                                <h6 class="my-0">@item.Product.Name</h6>
+                                <small class="text-muted">X @item.Quantity</small>
+                            </div>
+                            <span class="text-muted">@String.Format("{0:0,0}", (item.Product.Price.GetValueOrDefault(0) * item.Quantity))</span>
+                        </li>
+                    }
+
+                    <li class="list-group-item d-flex justify-content-between">
+                        <span>Tổng đơn</span>
+                        <strong>@String.Format("{0:0,0}", @ViewBag.Total)</strong>
+                    </li>
+                </ul>
+            }
+
+            <form class="card p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Mã giảm giá">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">Sử dụng</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-8 order-md-1" style="border-style:groove">
+            <h4 class="mb-3" style="margin-top:20px">Địa chỉ nhận hàng</h4>
+            @using (Html.BeginForm("Payment", "Cart", FormMethod.Post))
+            {
+            <form class="needs-validation" novalidate="" >
+                <div class="mb-3">
+                    <label for="username">Tên người nhận</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"></span>
+                        </div>
+                        <input type="text" class="form-control" name="txtName" placeholder="Name" required>
+                        <div class="invalid-feedback" style="width: 100%;"> Vui lòng nhập tên người nhận </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Số điện thoại</label>
+                    <input type="text" class="form-control" name="txtPhone" placeholder="Phone" required="">
+                    <div class="invalid-feedback"> Vui lòng nhập Số điện thoại nhận hàng </div>
+                </div>
+                <div class="mb-3">
+                    <label for="address">Địa chỉ nhận hàng</label>
+                    <input type="text" class="form-control" name="TxtDiachi" placeholder="Address" required="">
+                    <div class="invalid-feedback"> Vui lòng nhập địa chỉ nhận hàng </div>
+                </div>
+                <div class="mb-3">
+                    <label for="address">Ghi chú</label>
+                    <textarea name="txtGhichu" class="form-control" rows="5" placeholder="Note"></textarea>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-success btn-lg btn-block" style="margin-bottom:20px" type="submit" id="dathang" >Đặt hàng</button>
+            </form>
+            }
+        </div>
+    </div>
+
+</div>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict'
+
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        }, false)
+    }())
+</script>

@@ -1,0 +1,425 @@
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\HocMVC.dll.config
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\HocMVC.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\HocMVC.pdb
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\csc.exe
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\csc.exe.config
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\csc.rsp
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\csi.exe
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\csi.exe.config
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\csi.rsp
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.AppContext.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Console.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\vbc.exe
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\vbc.exe.config
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\vbc.rsp
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\Model.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Helpers.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Mvc.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Razor.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Webpages.Deployment.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Webpages.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Webpages.Razor.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\EntityFramework.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\Model.pdb
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\Model.dll.config
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Razor.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Webpages.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Webpages.Deployment.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Webpages.Razor.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Helpers.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\System.Web.Mvc.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\bin\EntityFramework.xml
+C:\Users\MSI\source\repos\HocMVC\HocMVC\obj\Debug\HocMVC.csprojAssemblyReference.cache
+C:\Users\MSI\source\repos\HocMVC\HocMVC\obj\Debug\HocMVC.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\HocMVC\HocMVC\obj\Debug\HocMVC.csproj.CopyComplete
+C:\Users\MSI\source\repos\HocMVC\HocMVC\obj\Debug\HocMVC.dll
+C:\Users\MSI\source\repos\HocMVC\HocMVC\obj\Debug\HocMVC.pdb
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\HocMVC.dll.config
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\HocMVC.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\HocMVC.pdb
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\csc.exe
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\csc.exe.config
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\csc.rsp
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\csi.exe
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\csi.exe.config
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\csi.rsp
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.AppContext.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Console.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.IO.Compression.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.IO.Pipes.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Security.AccessControl.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Security.Claims.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.ValueTuple.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Xml.XPath.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\vbc.exe
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\vbc.exe.config
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\vbc.rsp
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\VBCSCompiler.exe
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\CKFinder.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\EntityFramework.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\EntityFramework.SqlServer.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\Model.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\PagedList.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\PagedList.Mvc.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Helpers.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Mvc.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Optimization.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Razor.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Webpages.Deployment.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Webpages.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Webpages.Razor.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\Model.pdb
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\Model.dll.config
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\CKFinder.pdb
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\EntityFramework.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\EntityFramework.SqlServer.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\PagedList.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\PagedList.Mvc.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Razor.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Webpages.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Webpages.Deployment.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Webpages.Razor.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Helpers.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\System.Web.Mvc.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\obj\Debug\HocMVC.csprojAssemblyReference.cache
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\obj\Debug\HocMVC.csproj.CoreCompileInputs.cache
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\obj\Debug\HocMVC.csproj.CopyComplete
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\obj\Debug\HocMVC.dll
+D:\Code\3. Wed\7. MVC\HocMVC\HocMVC\obj\Debug\HocMVC.pdb
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\HocMVC.dll.config
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\HocMVC.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\HocMVC.pdb
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\csc.exe
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\csc.exe.config
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\csc.rsp
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\csi.exe
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\csi.exe.config
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\csi.rsp
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.AppContext.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Console.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.IO.Compression.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.IO.Pipes.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Security.AccessControl.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Security.Claims.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.ValueTuple.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Xml.XPath.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\vbc.exe
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\vbc.exe.config
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\vbc.rsp
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\VBCSCompiler.exe
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\CKFinder.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\EntityFramework.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\EntityFramework.SqlServer.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\Model.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\PagedList.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\PagedList.Mvc.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Helpers.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Mvc.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Razor.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Webpages.Deployment.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Webpages.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Webpages.Razor.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\Model.pdb
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\Model.dll.config
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\CKFinder.pdb
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\EntityFramework.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\EntityFramework.SqlServer.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\PagedList.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\PagedList.Mvc.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Razor.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Webpages.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Webpages.Deployment.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Webpages.Razor.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Helpers.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\System.Web.Mvc.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\obj\Debug\HocMVC.csprojAssemblyReference.cache
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\obj\Debug\HocMVC.csproj.CoreCompileInputs.cache
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\obj\Debug\HocMVC.csproj.CopyComplete
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\obj\Debug\HocMVC.dll
+D:\Code\3. Wed\7. MVC\Cũ\HocMVC\obj\Debug\HocMVC.pdb
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\HocMVC.dll.config
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\HocMVC.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\HocMVC.pdb
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\csc.exe
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\csc.exe.config
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\csc.rsp
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\csi.exe
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\csi.exe.config
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\csi.rsp
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.AppContext.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Console.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.IO.Compression.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.IO.Pipes.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Security.AccessControl.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Security.Claims.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.ValueTuple.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Xml.XPath.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\vbc.exe
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\vbc.exe.config
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\vbc.rsp
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\VBCSCompiler.exe
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Antlr3.Runtime.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\CKFinder.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\EntityFramework.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\EntityFramework.SqlServer.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Model.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Newtonsoft.Json.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\PagedList.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\PagedList.Mvc.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Helpers.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Mvc.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Optimization.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Razor.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Webpages.Deployment.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Webpages.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Webpages.Razor.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\WebGrease.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Model.pdb
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Model.dll.config
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Antlr3.Runtime.pdb
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\CKFinder.pdb
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\EntityFramework.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\EntityFramework.SqlServer.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Newtonsoft.Json.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\PagedList.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\PagedList.Mvc.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Optimization.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Razor.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Webpages.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Webpages.Deployment.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Webpages.Razor.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Helpers.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\System.Web.Mvc.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\obj\Debug\HocMVC.csprojAssemblyReference.cache
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\obj\Debug\HocMVC.csproj.CoreCompileInputs.cache
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\obj\Debug\HocMVC.csproj.CopyComplete
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\obj\Debug\HocMVC.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\obj\Debug\HocMVC.pdb
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\AjaxMin.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\mustache-sharp.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Mustache.dll
+D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Mustache.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\HocMVC.dll.config
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\HocMVC.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\HocMVC.pdb
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\csc.exe
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\csc.exe.config
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\csc.rsp
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\csi.exe
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\csi.exe.config
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\csi.rsp
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.AppContext.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Console.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\vbc.exe
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\vbc.exe.config
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\vbc.rsp
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\AjaxMin.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Antlr3.Runtime.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\CKFinder.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\EntityFramework.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Model.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\mustache-sharp.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Mustache.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Newtonsoft.Json.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\PagedList.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\PagedList.Mvc.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Helpers.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Mvc.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Optimization.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Razor.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Webpages.Deployment.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Webpages.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Webpages.Razor.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\WebGrease.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Model.pdb
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Model.dll.config
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Antlr3.Runtime.pdb
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\CKFinder.pdb
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\EntityFramework.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\EntityFramework.SqlServer.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Mustache.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Newtonsoft.Json.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\PagedList.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\PagedList.Mvc.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Optimization.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Razor.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Webpages.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Webpages.Deployment.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Webpages.Razor.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Helpers.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\System.Web.Mvc.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\obj\Debug\HocMVC.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\obj\Debug\HocMVC.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\obj\Debug\HocMVC.csproj.CopyComplete
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\obj\Debug\HocMVC.dll
+C:\Users\MSI\Desktop\aa\Cu\HocMVC\obj\Debug\HocMVC.pdb

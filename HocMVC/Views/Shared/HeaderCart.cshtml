@@ -1,0 +1,33 @@
+﻿@model List<HocMVC.Models.CartItem>
+@if (Model.Count > 0)
+{
+    <div class="cart">
+        <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+            <a href="/gio-hang">
+                <div class="cart_icon">
+                    <img src="/Public/Layout/images/cart.png" alt="">
+                    <div class="cart_count"><span>@Model.Count</span></div>
+                </div>
+                <div class="cart_content">
+                    <div class="cart_text"><a href="/Cart">Cart</a></div>
+                    <div class="cart_price">@String.Format("{0:0,0}", @ViewBag.Total) VNĐ</div>
+                </div>
+            </a>
+        </div>
+    </div>}
+else
+{
+    <div class="cart">
+        <div class="cart_container d-flex flex-row align-items-center justify-content-end">
+            <a href="/gio-hang">
+                <div class="cart_icon">
+                    <img src="/Public/Layout/images/cart.png" alt="">
+                    <div class="cart_count"><span>@Model.Count</span></div>
+                </div>
+                <div class="cart_content">
+                    <div class="cart_text"><a href="/Cart">Cart</a></div>
+                    <div class="cart_price">0 VNĐ</div>
+                </div>
+            </a>
+        </div>
+    </div>}

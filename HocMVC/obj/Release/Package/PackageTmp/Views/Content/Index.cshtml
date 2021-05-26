@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Model.EF.Contents>
+@{
+    ViewBag.Title = "Bài viết |Tâm sự | danhthucphaimanh";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Blog -->
+
+<div class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="blog_posts d-flex flex-row align-items-start justify-content-between">
+                    @foreach (var item in Model)
+                    {
+                        <!-- Blog post -->
+                    <a href="/bai-viet/@item.MetaTitle-@item.ID">
+                        <div class="blog_post">
+                            <div class="blog_image" style="background-image:url(@item.Image)"></div>
+                            <div class="blog_text">@item.Description</div>
+                            <div class="blog_button"><a href="/bai-viet/@item.MetaTitle-@item.ID">Continue Reading</a></div>
+                        </div>
+                    </a>
+                    }
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

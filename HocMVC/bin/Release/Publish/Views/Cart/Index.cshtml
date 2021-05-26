@@ -1,0 +1,162 @@
+﻿@model List<HocMVC.Models.CartItem>
+@{
+    ViewBag.Title = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script src="/Public/Controller/CartController.js"></script>
+}
+
+<style>
+    /*
+    ** Style Simple Ecommerce Theme for Bootstrap 4
+    ** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+    */
+    .bloc_left_price {
+        color: #c01508;
+        text-align: center;
+        font-weight: bold;
+        font-size: 150%;
+    }
+
+    .category_block li:hover {
+        background-color: #007bff;
+    }
+
+        .category_block li:hover a {
+            color: #ffffff;
+        }
+
+    .category_block li a {
+        color: #343a40;
+    }
+
+    .add_to_cart_block .price {
+        color: #c01508;
+        text-align: center;
+        font-weight: bold;
+        font-size: 200%;
+        margin-bottom: 0;
+    }
+
+    .add_to_cart_block .price_discounted {
+        color: #343a40;
+        text-align: center;
+        text-decoration: line-through;
+        font-size: 140%;
+    }
+
+    .product_rassurance {
+        padding: 10px;
+        margin-top: 15px;
+        background: #ffffff;
+        border: 1px solid #6c757d;
+        color: #6c757d;
+    }
+
+        .product_rassurance .list-inline {
+            margin-bottom: 0;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+            .product_rassurance .list-inline li:hover {
+                color: #343a40;
+            }
+
+    .reviews_product .fa-star {
+        color: gold;
+    }
+
+    .pagination {
+        margin-top: 20px;
+    }
+
+    footer {
+        background: #343a40;
+        padding: 40px;
+    }
+
+        footer a {
+            color: #f8f9fa !important
+        }
+</style>
+@if (Model.Count > 0)
+{
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    
+                    <table class="table table-striped">
+
+                        <thead>
+
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Sản phẩm</th>
+                                <th scope="col" class="text-center">Số lượng</th>
+                                <th scope="col" class="text-right">Đơn giá</th>
+                                @*<th scope="col" class="text-right">Thành tiền</th>*@
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model)
+                            {
+
+                                <tr>
+                                    <td><img src="@item.Product.Image" style="max-height:50px;max-width:50px" /> </td>
+                                    <td>@item.Product.Name</td>
+                                    <td><input class="txtQuantity" type="number" style="width:40px" data-id="@item.Product.ID" value="@item.Quantity" /></td>
+                                    <td class="text-right">@String.Format("{0:0,0}", item.Product.Price.GetValueOrDefault(0)) </td>
+                                    @*<td class="text-right">@String.Format("{0:0,0}", (item.Product.Price.GetValueOrDefault(0) * item.Quantity))</td>*@
+                                    @*<td class="text-right"><a href="#" ><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </a> </td>*@
+                                    <td><a href="#" data-id="@item.Product.ID" class="btn-delete"><i class="fa fa-trash"></i></a></td>
+                                </tr>
+
+                                @*@tongtien += item.Product.Price.GetValueOrDefault(0) * item.Quantity;*@
+                            }
+                            <tr>
+                                <td class="text-left" style="font-size:25px"><strong> Tổng</strong></td>
+                            </tr>
+                                <tr>
+                                    
+                                    <td>Ship</td>
+                                    <td class="text-left">0 đ</td>
+                                </tr>
+                            <tr>
+
+                                <td><strong>Total</strong></td>
+                                <td class="text-left"><strong>@String.Format("{0:0,0}", @ViewBag.Total)</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
+else
+{
+    <h3 style="text-align:center"> Giỏ hàng trống</h3>
+}
+    <br />
+<div class="col mb-2">
+    <div class="row">
+        <div class="col" style=" margin-top:10px;">
+            <button id="btnPayment" class="btn btn-lg btn-block btn-success text-uppercase">Đặt hàng</button>
+        </div>
+        <div class="col" style=" margin-top:10px">
+            <button id="btnUpdate" class="btn btn-lg btn-block btn-primary text-uppercase" style="color:white">Cập nhật số lượng</button>
+        </div>
+        <div class="col" style="margin-top:10px">
+            <button id="btnContinue" class="btn btn-lg btn-block btn-outline-warning btn text-uppercase">Tiếp tục mua sắm</button>
+            @*<button id="btnContinue"  class="btn btn-lg btn-outline-warning text-uppercase">Tiếp tục mua sắm</button>*@
+        </div>
+
+
+    </div>
+</div>

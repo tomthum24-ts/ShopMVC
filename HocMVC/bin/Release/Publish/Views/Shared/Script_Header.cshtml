@@ -1,0 +1,16 @@
+﻿@model List<Model.EF.Scritp_Header>
+
+@foreach (var item in Model)
+{
+    @Html.Raw(item.Code)
+    
+}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+@*<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160634112-1"></script>
+    <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-160634112-1');
+    </script>*@

@@ -1,0 +1,176 @@
+﻿@model Model.EF.Product
+@{
+    /**/
+    //var category = (Model.EF.ProductCategory)ViewBag.Category;
+    var listcat = (List<Model.EF.Product>)ViewBag.Catid;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section OpenGraph {
+    <meta property="og:title" content="@Model.Name">
+    <meta property="og:image" content="@Model.Image">
+    <meta property="og:image:secure_url" content="@Model.Image">
+    <meta property="og:description" content="@Model.Description">
+    <meta property="og:url" content="danhthucphaimanh.com/chi-tiet/@Model.MetaTitle-@Model.ID">
+    <meta property="og:site_name" content="Nhập Khẩu từ Nhật Bản, USA, Đức, Nga giao hàng toàn quốc">
+}
+    <style>
+        .warning {
+            background-color: #ffffcc;
+            border-left: 6px solid #ffeb3b;
+        }
+        .checked {
+            color: orange;
+        }
+    </style>
+    <ul class="breadcrumb">
+        <li><a href="/">Trang chủ</a></li>
+        <li><a href="/san-pham/@Model.MetaTitle-@Model.CategoryID">Loại</a></li>
+        @*<li><a href="/chi-tiet/@Model.MetaTitle-@Model.ID"></a></li>*@
+    </ul>
+    <div class="single_product">
+        <div class="container">
+            <div class="row">
+
+                <!-- Images -->
+                <!-- Selected Image -->
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="image_selected"><img src="@Model.Image" alt="@Model.Name"></div>
+                </div>
+                
+                    <!-- Description -->
+                    <div class="col-lg-5 order-3">
+                        <div class="product_description">
+                            @*<div class="product_category">@Model.CategoryID</div>*@
+                            <div class="product_name" style="color:#0e8ce4">@Model.Name</div>
+                            @**@
+                            <label>Đánh giá: </label>
+
+                            @Html.Raw(@ViewBag.Star) <label>(@ViewBag.Vote)</label>
+                            <div class="pr_price"><h2>@String.Format("{0:0,0}", Model.Price) VNĐ</h2></div>
+                            @using (Html.BeginForm("AddItem", "Cart", FormMethod.Post))
+                            {
+                                <div class="button_container">
+
+                                    @*<a href="/them-gio-hang?productId=@Model.ID&Quantity=1"> <button type="submit" class="btn btn-primary btn-lg" style="margin-left:60px">Thêm vào giỏ</button></a>*@
+
+                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                </div>
+
+                                <div class="order_info d-flex flex-row d-inline">
+
+                                    <input class="form-control" type="hidden" value="@Model.ID" name="productId" data-id="@Model.ID" />
+                                    <div class="row">
+                                        <div class="col"><input class="form-control form-control-lg" id="quantity" name="quantity" style="width:80px" type="number" min="1" pattern="[0-9]*" value="1"></div>
+                                        <div class="col"><button type="submit" class="btn btn-success btn-lg" style="height:50px">Mua ngay</button></div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="warning">
+                                    <div class="product_text"><p>@Model.Description</p></div>
+                                </div>
+                                <section>
+                                    @{Html.RenderAction("AddItem", "Home");}
+                                </section>
+                            }
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="container mt-3">
+                <h2>Thông tin sản phẩm @Model.Name</h2>
+                <br>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#home">Chi tiết</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#menu1">Hướng dẫn mua hàng</a>
+                    </li>
+
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="home" class="container tab-pane active">
+                        <br>
+                        @Html.Raw(@Model.Detail)
+                    </div>
+                    <div id="menu1" class="container tab-pane fade">
+                        <br>
+                        <h3>Hướng dẫn mua h&agrave;ng</h3>
+
+                        <p>
+                            Qu&yacute; kh&aacute;ch truy cập website của ch&uacute;ng t&ocirc;i qua địa chỉ: www.danhthucphaimanh.com, xem sản phẩm v&agrave; lựa chọn sản phẩm cần mua.<br />
+                            - Nhấn n&uacute;t &quot;Th&ecirc;m v&agrave;o giỏ h&agrave;ng&quot; để đưa sản phẩm v&agrave;o giỏ h&agrave;ng.<br />
+                            - Sau khi đ&atilde; ho&agrave;n tất việc chọn h&agrave;ng, qu&yacute; kh&aacute;ch v&agrave;o giỏ h&agrave;ng để xem (biểu tượng giỏ h&agrave;ng ngo&agrave;i c&ugrave;ng b&ecirc;n phải topbar).<br />
+                            - Chuyển tới trang thanh to&aacute;n.<br />
+                            - Nhập đầy đủ th&ocirc;ng tin c&aacute; nh&acirc;n v&agrave; th&ocirc;ng tin thanh to&aacute;n v&agrave;o biểu mẫu.<br />
+                            -Kết th&uacute;c đơn h&agrave;ng, qu&yacute; kh&aacute;ch vui l&ograve;ng chờ nh&acirc;n vi&ecirc;n của ch&uacute;ng t&ocirc;i điện thoại lại để chốt đơn.
+                        </p>
+                        <h3>Hướng dẫn thanh to&aacute;n</h3>
+
+                        <p>
+                            Hiện tại, ch&uacute;ng t&ocirc;i mới chỉ cung cấp 2 h&igrave;nh thức thanh to&aacute;n: (1). nhận h&agrave;ng thanh to&aacute;n v&agrave; (2). thanh to&aacute;n chuyển khoản.<br />
+                            - 1. Qu&yacute; kh&aacute;ch đặt h&agrave;ng v&agrave; được nh&acirc;n vi&ecirc;n x&aacute;c nhận qua cuộc gọi trực tiếp. Qua đ&oacute;, ch&uacute;ng t&ocirc;i gửi h&agrave;ng về cho qu&yacute; kh&aacute;ch th&ocirc;ng qua dịch vụ ship COD. Qu&yacute; kh&aacute;ch nhận h&agrave;ng, kiểm tra h&agrave;ng v&agrave; thanh to&aacute;n trực tiếp cho nh&acirc;n vi&ecirc;n bưu ph&aacute;t.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            @*<div class="Detail-Product" style="background-color:#FAF9F9"><h2>Thông tin sản phẩm @Model.Name</h2>@Html.Raw(@Model.Detail)</div>*@
+        </div>
+    </div>
+
+<!-- Single Product -->
+
+
+<div class="shop_content">
+    <div class="shop_bar clearfix">
+        <div class="shop_product_count" style="font-size:30px; margin-left:10px"> Sản phẩm cùng loại</div>
+        <div class="shop_sorting">
+            <span>Bộ lọc</span>
+            <ul>
+                <li>
+                    <span class="sorting_text">Sort<i class="fas fa-chevron-down"></span></i>
+                    <ul>
+                        <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "original-order" }'>Lượt thích</li>
+                        @*<li class="shop_sorting_button" data-isotope-option='{ "sortBy": "name" }'>Tên</li>*@
+                        <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "price" }'>Giá</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product_grid">
+        <div class="product_grid_border"></div>
+
+        <!-- Product Item -->
+        @foreach (var item in listcat)
+        {
+            <div class="product_item is_new" style="position: absolute; right:15px; left: 15px; top: 0px;">
+                <div class="product_border"></div>
+                <a href="/chi-tiet/@item.MetaTitle-@item.ID">
+                    <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="@item.Image" alt="@item.Name" style="max-height:150px;max-width:150px"></div>
+                    <div class="product_content">
+                        <div class="product_price">@String.Format("{0:0,0}", @item.Price)</div>
+                        <div class="product" style="margin-left:20px;margin-right:25px;display:inline-block"><div><a href="/chi-tiet/@item.MetaTitle-@item.ID" tabindex="0">@item.Name</a></div></div>
+                    </div>
+                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                    <ul class="product_marks">
+                        <li class="product_mark product_discount">-25%</li>
+                        <li class="product_mark product_new">New</li>
+                    </ul>
+                </a>
+
+            </div>
+        }
+    </div>
+
+
+
+</div>
