@@ -215,6 +215,7 @@ namespace Model.Dao
         //Vote
         public string Star(object soluong)
         {
+            if (soluong == null) soluong = 0;
             if (int.Parse(soluong.ToString()) == 1)
             {
                 return "<span class='fa fa-star checked'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span><span class='fa fa-star'></span>";
