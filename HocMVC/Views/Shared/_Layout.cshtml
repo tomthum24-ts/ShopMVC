@@ -20,8 +20,13 @@
     <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/blog_responsive.css">
     <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/product_styles.css">
     <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/product_responsive.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/Layout.css">
     <link href="/Public/Layout/styles/bootstrap4/jquery-ui.css" rel="stylesheet" />
-    <link href="~/Public/dist/css/Layout.css" rel="stylesheet" />
+    <link href="/Public/dist/css/Layout.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.4.2/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.4.2/sweetalert2.min.css" />
     @{Html.RenderAction("Script_Header", "Home");}
 </head>
 
@@ -207,14 +212,17 @@
 
 
         <!-- Shop -->
-        <div class="content-wrapper">
-            @if (TempData["AlertMessage"] != null)
-            {
-                <div id="AlertBox" class="alert @TempData["AlertType"] hide">
-                    @TempData["AlertMessage"]
-                </div>
-            }
-        </div>
+        @*<div class="content-wrapper">
+                @if (TempData["AlertMessage"] != null)
+                {
+                    <div id="AlertBox" class="alert @TempData["AlertType"] hide">
+                        @TempData["AlertMessage"]
+                    </div>
+                }
+            </div>*@
+
+
+
         <div class="shop1">
             <div class="container">
                 <div class="row">
@@ -226,7 +234,8 @@
         </div>
 
 
-
+        <button id="button">Show (Bootstrap)</button>
+        <hr />
 
 
 
@@ -262,19 +271,32 @@
     <section>
 
         @*<script type="text/javascript">
-            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-            (function () {
-                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-                s1.async = true;
-                s1.src = 'https://embed.tawk.to/5dd3a690d96992700fc82041/default';
-                s1.charset = 'UTF-8';
-                s1.setAttribute('crossorigin', '*');
-                s0.parentNode.insertBefore(s1, s0);
-            })();
-        </script>*@
+                var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+                (function () {
+                    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                    s1.async = true;
+                    s1.src = 'https://embed.tawk.to/5dd3a690d96992700fc82041/default';
+                    s1.charset = 'UTF-8';
+                    s1.setAttribute('crossorigin', '*');
+                    s0.parentNode.insertBefore(s1, s0);
+                })();
+            </script>*@
 
     </section>
- 
+    <script type="text/javascript">
+        $(function () {
+            $('#button').click(() => {
+                swal({
+                    title: 'Sweet!',
+                    position: 'top-end',
+                    title: 'Thêm Thành Công',
+                    showConfirmButton: false,
+                    timer: 3500,
+                    imageUrl: '/Public/success-icon.png',
+                })
+            });
+        });
+    </script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="/Public/Layout/js/jquery-3.3.1.min.js"></script>

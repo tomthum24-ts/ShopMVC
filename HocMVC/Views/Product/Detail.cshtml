@@ -3,6 +3,7 @@
     /**/
     //var category = (Model.EF.ProductCategory)ViewBag.Category;
     var listcat = (List<Model.EF.Product>)ViewBag.Catid;
+    var listComment = (List<Model.EF.Comment>)ViewBag.CommentById;
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -14,117 +15,161 @@
     <meta property="og:url" content="danhthucphaimanh.com/chi-tiet/@Model.MetaTitle-@Model.ID">
     <meta property="og:site_name" content="Nhập Khẩu từ Nhật Bản, USA, Đức, Nga giao hàng toàn quốc">
 }
-    <style>
-        .warning {
-            background-color: #ffffcc;
-            border-left: 6px solid #ffeb3b;
-        }
-        .checked {
-            color: orange;
-        }
-    </style>
-    <!--<ul class="breadcrumb">
-        <li><a href="/">Trang chủ</a></li>
-        <li><a href="/san-pham/@Model.MetaTitle-@Model.CategoryID">Loại</a></li>-->
-        @*<li><a href="/chi-tiet/@Model.MetaTitle-@Model.ID"></a></li>*@
-    <!--</ul-->>
-    <div class="single_product">
-        <div class="container">
-            <div class="row">
+<style>
+    .warning {
+        background-color: #ffffcc;
+        border-left: 6px solid #ffeb3b;
+    }
 
-                <!-- Images -->
-                <!-- Selected Image -->
-                <div class="col-lg-5 order-lg-2 order-1">
-                    <div class="image_selected"><img src="@Model.Image" alt="@Model.Name"></div>
-                </div>
-                
-                    <!-- Description -->
-                    <div class="col-lg-5 order-3">
-                        <div class="product_description">
-                            @*<div class="product_category">@Model.CategoryID</div>*@
-                            <div class="product_name" style="color:#0e8ce4">@Model.Name</div>
-                            @**@
-                            <label>Đánh giá: </label>
+    .checked {
+        color: orange;
+    }
+</style>
+<div class="single_product">
+    <div class="container">
+        <div class="row">
 
-                            @Html.Raw(@ViewBag.Star) <label>(@ViewBag.Vote)</label>
-                            <div class="pr_price"><h2>@String.Format("{0:0,0}", Model.Price) VNĐ</h2></div>
-                            @using (Html.BeginForm("AddItem", "Cart", FormMethod.Post))
-                            {
-                                <div class="button_container">
+            <!-- Images -->
+            <!-- Selected Image -->
+            <div class="col-lg-5 order-lg-2 order-1">
+                <div class="image_selected"><img src="@Model.Image" alt="@Model.Name"></div>
+            </div>
 
-                                    @*<a href="/them-gio-hang?productId=@Model.ID&Quantity=1"> <button type="submit" class="btn btn-primary btn-lg" style="margin-left:60px">Thêm vào giỏ</button></a>*@
+            <!-- Description -->
+            <div class="col-lg-5 order-3">
+                <div class="product_description">
+                    @*<div class="product_category">@Model.CategoryID</div>*@
+                    <div class="product_name" style="color:#0e8ce4">@Model.Name</div>
+                    @**@
+                    <label>Đánh giá: </label>
 
-                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
-                                </div>
+                    @Html.Raw(@ViewBag.Star) <label>(@ViewBag.Vote)</label>
+                    <div class="pr_price"><h2>@String.Format("{0:0,0}", Model.Price) VNĐ</h2></div>
+                    @using (Html.BeginForm("AddItem", "Cart", FormMethod.Post))
+                    {
+                        <div class="button_container">
 
-                                <div class="order_info d-flex flex-row d-inline">
+                            @*<a href="/them-gio-hang?productId=@Model.ID&Quantity=1"> <button type="submit" class="btn btn-primary btn-lg" style="margin-left:60px">Thêm vào giỏ</button></a>*@
 
-                                    <input class="form-control" type="hidden" value="@Model.ID" name="productId" data-id="@Model.ID" />
-                                    <div class="row">
-                                        <div class="col"><input class="form-control form-control-lg" id="quantity" name="quantity" style="width:80px" type="number" min="1" pattern="[0-9]*" value="1"></div>
-                                        <div class="col"><button type="submit" class="btn btn-success btn-lg" style="height:50px">Mua ngay</button></div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="warning">
-                                    <div class="product_text"><p>@Model.Description</p></div>
-                                </div>
-                                <section>
-                                    @{Html.RenderAction("AddItem", "Home");}
-                                </section>
-                            }
+                            <div class="product_fav"><i class="fas fa-heart"></i></div>
                         </div>
-                    </div>
-                
-            </div>
-            <div class="container mt-3">
-                <h2>Thông tin sản phẩm @Model.Name</h2>
-                <br>
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#home">Chi tiết</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#menu1">Hướng dẫn mua hàng</a>
-                    </li>
 
-                </ul>
+                        <div class="order_info d-flex flex-row d-inline">
 
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div id="home" class="container tab-pane active">
-                        <br>
-                        @Html.Raw(@Model.Detail)
-                    </div>
-                    <div id="menu1" class="container tab-pane fade">
-                        <br>
-                        <h3>Hướng dẫn mua h&agrave;ng</h3>
+                            <input class="form-control" type="hidden" value="@Model.ID" name="productId" data-id="@Model.ID" />
+                            <div class="row">
+                                <div class="col"><input class="form-control form-control-lg" id="quantity" name="quantity" style="width:80px" type="number" min="1" pattern="[0-9]*" value="1"></div>
+                                <div class="col"><button id="button" type="submit" class="btn btn-success btn-lg" style="height:50px">Mua ngay</button></div>
 
-                        <p>
-                            Qu&yacute; kh&aacute;ch truy cập website của ch&uacute;ng t&ocirc;i qua địa chỉ: www.danhthucphaimanh.com, xem sản phẩm v&agrave; lựa chọn sản phẩm cần mua.<br />
-                            - Nhấn n&uacute;t &quot;Th&ecirc;m v&agrave;o giỏ h&agrave;ng&quot; để đưa sản phẩm v&agrave;o giỏ h&agrave;ng.<br />
-                            - Sau khi đ&atilde; ho&agrave;n tất việc chọn h&agrave;ng, qu&yacute; kh&aacute;ch v&agrave;o giỏ h&agrave;ng để xem (biểu tượng giỏ h&agrave;ng ngo&agrave;i c&ugrave;ng b&ecirc;n phải topbar).<br />
-                            - Chuyển tới trang thanh to&aacute;n.<br />
-                            - Nhập đầy đủ th&ocirc;ng tin c&aacute; nh&acirc;n v&agrave; th&ocirc;ng tin thanh to&aacute;n v&agrave;o biểu mẫu.<br />
-                            -Kết th&uacute;c đơn h&agrave;ng, qu&yacute; kh&aacute;ch vui l&ograve;ng chờ nh&acirc;n vi&ecirc;n của ch&uacute;ng t&ocirc;i điện thoại lại để chốt đơn.
-                        </p>
-                        <h3>Hướng dẫn thanh to&aacute;n</h3>
+                            </div>
 
-                        <p>
-                            Hiện tại, ch&uacute;ng t&ocirc;i mới chỉ cung cấp 2 h&igrave;nh thức thanh to&aacute;n: (1). nhận h&agrave;ng thanh to&aacute;n v&agrave; (2). thanh to&aacute;n chuyển khoản.<br />
-                            - 1. Qu&yacute; kh&aacute;ch đặt h&agrave;ng v&agrave; được nh&acirc;n vi&ecirc;n x&aacute;c nhận qua cuộc gọi trực tiếp. Qua đ&oacute;, ch&uacute;ng t&ocirc;i gửi h&agrave;ng về cho qu&yacute; kh&aacute;ch th&ocirc;ng qua dịch vụ ship COD. Qu&yacute; kh&aacute;ch nhận h&agrave;ng, kiểm tra h&agrave;ng v&agrave; thanh to&aacute;n trực tiếp cho nh&acirc;n vi&ecirc;n bưu ph&aacute;t.
-                        </p>
+                        </div>
 
-                    </div>
-
+                        <div class="warning">
+                            <div class="product_text"><p>@Model.Description</p></div>
+                        </div>
+                        <section>
+                            @{Html.RenderAction("Menubottom", "Home");}
+                        </section>
+                    }
                 </div>
             </div>
-            @*<div class="Detail-Product" style="background-color:#FAF9F9"><h2>Thông tin sản phẩm @Model.Name</h2>@Html.Raw(@Model.Detail)</div>*@
+
+        </div>
+        <div class="container mt-3">
+            <h2>Thông tin sản phẩm @Model.Name</h2>
+            <br>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home">Chi tiết</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">Hướng dẫn mua hàng</a>
+                </li>
+
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="home" class="container tab-pane active">
+                    <br>
+                    @Html.Raw(@Model.Detail)
+                </div>
+                <div id="menu1" class="container tab-pane fade">
+                    <br>
+                    <h3>Hướng dẫn mua h&agrave;ng</h3>
+
+                    <p>
+                        Qu&yacute; kh&aacute;ch truy cập website của ch&uacute;ng t&ocirc;i qua địa chỉ: www.danhthucphaimanh.com, xem sản phẩm v&agrave; lựa chọn sản phẩm cần mua.<br />
+                        - Nhấn n&uacute;t &quot;Th&ecirc;m v&agrave;o giỏ h&agrave;ng&quot; để đưa sản phẩm v&agrave;o giỏ h&agrave;ng.<br />
+                        - Sau khi đ&atilde; ho&agrave;n tất việc chọn h&agrave;ng, qu&yacute; kh&aacute;ch v&agrave;o giỏ h&agrave;ng để xem (biểu tượng giỏ h&agrave;ng ngo&agrave;i c&ugrave;ng b&ecirc;n phải topbar).<br />
+                        - Chuyển tới trang thanh to&aacute;n.<br />
+                        - Nhập đầy đủ th&ocirc;ng tin c&aacute; nh&acirc;n v&agrave; th&ocirc;ng tin thanh to&aacute;n v&agrave;o biểu mẫu.<br />
+                        -Kết th&uacute;c đơn h&agrave;ng, qu&yacute; kh&aacute;ch vui l&ograve;ng chờ nh&acirc;n vi&ecirc;n của ch&uacute;ng t&ocirc;i điện thoại lại để chốt đơn.
+                    </p>
+                    <h3>Hướng dẫn thanh to&aacute;n</h3>
+
+                    <p>
+                        Hiện tại, ch&uacute;ng t&ocirc;i mới chỉ cung cấp 2 h&igrave;nh thức thanh to&aacute;n: (1). nhận h&agrave;ng thanh to&aacute;n v&agrave; (2). thanh to&aacute;n chuyển khoản.<br />
+                        - 1. Qu&yacute; kh&aacute;ch đặt h&agrave;ng v&agrave; được nh&acirc;n vi&ecirc;n x&aacute;c nhận qua cuộc gọi trực tiếp. Qua đ&oacute;, ch&uacute;ng t&ocirc;i gửi h&agrave;ng về cho qu&yacute; kh&aacute;ch th&ocirc;ng qua dịch vụ ship COD. Qu&yacute; kh&aacute;ch nhận h&agrave;ng, kiểm tra h&agrave;ng v&agrave; thanh to&aacute;n trực tiếp cho nh&acirc;n vi&ecirc;n bưu ph&aacute;t.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        @*<div class="Detail-Product" style="background-color:#FAF9F9"><h2>Thông tin sản phẩm @Model.Name</h2>@Html.Raw(@Model.Detail)</div>*@
+    </div>
+</div>
+
+<div class="col-md-12">
+    <div class="card card-white post">
+        <div class="post-heading">
+            <div class="float-left image">
+                <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+            </div>
+            <div class="float-left meta">
+                <div class="title h5">
+                    <a href="#"><b>Ryan Haywood</b></a>
+                    made a post.
+                </div>
+                <h6 class="text-muted time">1 minute ago</h6>
+            </div>
+        </div>
+        <div class="post-description">
+            <p>Bootdey is a gallery of free snippets resources templates and utilities for bootstrap css hmtl js framework. Codes for developers and web designers</p>
+
+        </div>
+
+    </div>
+</div>
+@foreach (var item in listComment)
+{
+    <div class="col-md-12">
+        <div class="card card-white post">
+            <div class="post-heading">
+                <div class="float-left image">
+                    <img src="@item.Image" class="img-circle avatar" alt="user profile image">
+                </div>
+                <div class="float-left meta">
+                    <div class="title h5">
+                        <a href="#"><b>Ryan Haywood</b></a>
+                        @item.CauHoi
+                    </div>
+                    <h6 class="text-muted time">30 hour ago</h6>
+                </div>
+            </div>
+            <div class="post-description">
+                <p>@item.CauTraLoi</p>
+
+            </div>
+
         </div>
     </div>
+
+}
+
 
 <!-- Single Product -->
 

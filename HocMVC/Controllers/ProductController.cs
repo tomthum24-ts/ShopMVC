@@ -28,6 +28,7 @@ namespace HocMVC.Controllers
             //var nameCat = category.getCat(int.Parse(id));
             //Get detail
             var pro = new ProductDao();
+            var Comment = new CommentDao();
             var product = new ProductDao().ViewDetail(id);
             long idcat = product.CategoryID;
             int? _star = product.Star;
@@ -36,6 +37,18 @@ namespace HocMVC.Controllers
             ViewBag.Description = product.MetaDescriptions;
             ViewBag.Keywords = product.MetaKeywords;
             ViewBag.Catid = pro.ListCat(5, idcat);
+           var idComment = Convert.ToInt32(id);
+            
+            try
+            {
+                ViewBag.CommentById = Comment.ListCommentById(idComment);
+            }
+            catch (Exception)
+            {
+
+                
+            }
+            
             try
             {
                 ViewBag.Star = pro.Star(_star);
