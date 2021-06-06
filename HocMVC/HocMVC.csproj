@@ -3342,6 +3342,7 @@
     <Compile Include="Areas\Admin\Controllers\UserController.cs" />
     <Compile Include="Areas\Admin\Models\LoginModel.cs" />
     <Compile Include="Areas\Admin\Models\ProductViewCat.cs" />
+    <Compile Include="Common\Common.cs" />
     <Compile Include="Common\Encryptor.cs" />
     <Compile Include="Common\SessionKT.cs" />
     <Compile Include="Common\UserLogin.cs" />

@@ -15,6 +15,7 @@ namespace Model.EF
         public string ModifiedBy { get; set; }
         public int? IdSanPham { get; set; }
         public bool Isdelete { get; set; }
+        public string TenNguoiHoi { get; set; }
 
     }
 }

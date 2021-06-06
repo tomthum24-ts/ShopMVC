@@ -25,8 +25,6 @@ namespace HocMVC.Controllers
         {
             //get name productcategory wwith id
             var category = new ProductCategoryDao();
-            //var nameCat = category.getCat(int.Parse(id));
-            //Get detail
             var pro = new ProductDao();
             var Comment = new CommentDao();
             var product = new ProductDao().ViewDetail(id);
@@ -37,30 +35,12 @@ namespace HocMVC.Controllers
             ViewBag.Description = product.MetaDescriptions;
             ViewBag.Keywords = product.MetaKeywords;
             ViewBag.Catid = pro.ListCat(5, idcat);
-           var idComment = Convert.ToInt32(id);
-            
-            try
-            {
-                ViewBag.CommentById = Comment.ListCommentById(idComment);
-            }
-            catch (Exception)
-            {
-
-                
-            }
-            
-            try
-            {
-                ViewBag.Star = pro.Star(_star);
-                ViewBag.Vote = _vote;
-            }
-            catch (Exception)
-            {
-
-                return View(product);
-            }
-
-            //ViewBag.ListHot = ProductDao().
+            //Comment
+            var idComment = Convert.ToInt32(id);
+            var result= Comment.ListCommentById(idComment);
+            ViewBag.CommentById = result;
+            ViewBag.Star = pro.Star(_star);
+            ViewBag.Vote = _vote;
             return View(product);
         }
         public JsonResult ListName(string q)

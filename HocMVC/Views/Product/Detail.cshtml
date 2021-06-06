@@ -146,25 +146,40 @@
 </div>
 @foreach (var item in listComment)
 {
-    <div class="col-md-12">
-        <div class="card card-white post">
-            <div class="post-heading">
-                <div class="float-left image">
-                    <img src="@item.Image" class="img-circle avatar" alt="user profile image">
-                </div>
-                <div class="float-left meta">
-                    <div class="title h5">
-                        <a href="#"><b>Ryan Haywood</b></a>
-                        @item.CauHoi
+    <div class="container mb-5 mt-5">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center mb-5"> Nested comment section </h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="media">
+                                <img class="mr-3 rounded-circle" alt="Bootstrap Media Preview" src="https://i.imgur.com/stD0Q19.jpg" />
+                                <div class="media-body">
+                                    <div class="row">
+                                        <div class="col-8 d-flex">
+                                            <h5>Maria Smantha</h5> <span>- 2 hours ago</span>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="pull-right reply"> <a href="#"><span><i class="fa fa-reply"></i> reply</span></a> </div>
+                                        </div>
+                                    </div> It is a long established fact that a reader will be distracted by the readable content of a page. <div class="media mt-4">
+                                        <a class="pr-3" href="#"><img class="rounded-circle" alt="Bootstrap Media Another Preview" src="https://i.imgur.com/xELPaag.jpg" /></a>
+                                        <div class="media-body">
+                                            <div class="row">
+                                                <div class="col-12 d-flex">
+                                                    <h5>Simona Disa</h5> <span>- 3 hours ago</span>
+                                                </div>
+                                            </div> letters, as opposed to using 'Content here, content here', making it look like readable English.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <h6 class="text-muted time">30 hour ago</h6>
                 </div>
             </div>
-            <div class="post-description">
-                <p>@item.CauTraLoi</p>
-
-            </div>
-
         </div>
     </div>
 
