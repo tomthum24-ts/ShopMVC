@@ -84,7 +84,6 @@ C:\Users\MSI\Desktop\ShopMVC\Model\bin\Debug\EntityFramework.xml
 C:\Users\MSI\Desktop\ShopMVC\Model\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\MSI\Desktop\ShopMVC\Model\bin\Debug\PagedList.xml
 C:\Users\MSI\Desktop\ShopMVC\Model\bin\Debug\PagedList.Mvc.xml
-C:\Users\MSI\Desktop\ShopMVC\Model\obj\Debug\Model.csprojAssemblyReference.cache
 C:\Users\MSI\Desktop\ShopMVC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\MSI\Desktop\ShopMVC\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Users\MSI\Desktop\ShopMVC\Model\obj\Debug\Model.dll

@@ -145,9 +145,10 @@ namespace HocMVC.Controllers
             order.Note = txtGhichu;
             var ten = "";
             var soluong = "";
+            var id = new OrderDao().Insert(order);
             try
             {
-                var id = new OrderDao().Insert(order);
+                
                 var cart = (List<CartItem>)Session[CartSession];
                 var detailDao = new Model.Dao.OrderDetailDao();
                 decimal total = 0;
@@ -165,18 +166,18 @@ namespace HocMVC.Controllers
                     soluong = item.Quantity.ToString();
                 }
                
-                string content = System.IO.File.ReadAllText(Server.MapPath("~/Public/TemplateOder/neworder.html"));
+                //string content = System.IO.File.ReadAllText(Server.MapPath("~/Public/TemplateOder/neworder.html"));
 
-                content = content.Replace("{{CustomerName}}", txtName);
-                content = content.Replace("{{Phone}}", txtPhone);
-                content = content.Replace("{{Note}}", txtGhichu);
-                content = content.Replace("{{Address}}", TxtDiachi);
-                content = content.Replace("{{NameProduct}}", ten);
-                content = content.Replace("{{Quanlity}}", soluong);
-                content = content.Replace("{{Total}}", total.ToString("N0"));
-                var toEmail = "transon.it24@gmail.com";
+                //content = content.Replace("{{CustomerName}}", txtName);
+                //content = content.Replace("{{Phone}}", txtPhone);
+                //content = content.Replace("{{Note}}", txtGhichu);
+                //content = content.Replace("{{Address}}", TxtDiachi);
+                //content = content.Replace("{{NameProduct}}", ten);
+                //content = content.Replace("{{Quanlity}}", soluong);
+                //content = content.Replace("{{Total}}", total.ToString("N0"));
+                //var toEmail = "transon.it24@gmail.com";
 
-                new Mail().SendMail(toEmail, "Đơn hàng mới ", content);
+                //new Mail().SendMail(toEmail, "Đơn hàng mới ", content);
                 Session[CartSession] = null;
             }
             catch (Exception)

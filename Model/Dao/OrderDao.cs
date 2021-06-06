@@ -44,7 +44,7 @@ namespace Model.Dao
         }
         public List<Order> Listall2()
         {
-            return db.Orders.OrderByDescending(x => x.CreatedDate).ToList();
+            return db.Orders.OrderBy(x => x.CreatedDate).ToList();
         }
         public IEnumerable<Order> ListAllPagingAd(int page, int pageSize)
         {
