@@ -95,9 +95,10 @@
                 <div class="form-group">
                     @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label col-md-4" })
                     <div class="col-md-10">
-                        @Html.TextBoxFor(model => model.Image, new { @class = "form-control", htmlAttributes = new {  @id = "txtImage" }, id = "txtImage" })
+                        @Html.TextBoxFor(model => model.Image, new { @class = "form-control", htmlAttributes = new { @id = "txtImage" }, id = "txtImage" })
                         <a id="btnSelectImage" href="#">Chọn ảnh</a>
                         @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+                        @*<img src="cinqueterre.jpg" id = "txtImage" class="rounded" alt="Cinque Terre" width="100" height="100">*@
                     </div>
                 </div>
                 <div class="form-group">

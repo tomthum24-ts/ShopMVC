@@ -1,0 +1,63 @@
+﻿@model List<Model.ViewModel.ProductViewModel>
+@{
+    var category = (Model.EF.ProductCategory)ViewBag.Category;
+    ViewBag.Title = category.Name;
+    ViewBag.Description = category.MetaDescriptions;
+    ViewBag.Keywords = category.MetaKeywords;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<div class="shop_content">
+    <div class="shop_bar clearfix">
+        <div class="shop_product_count" style="font-size:30px"><h3>Sản phẩm</h3></div>
+        <div class="shop_sorting">
+            <span>Sort by:</span>
+            <ul>
+                <li>
+                    <span class="sorting_text">highest rated<i class="fas fa-chevron-down"></span></i>
+                    <ul>
+                        <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "original-order" }'>highest rated</li>
+                        <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "name" }'>name</li>
+                        <li class="shop_sorting_button" data-isotope-option='{ "sortBy": "price" }'>price</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    @if (Model.Count() > 0)
+    {
+        <div class="product_grid">
+            <div class="product_grid_border"></div>
+
+            <!-- Product Item -->
+            @foreach (var item in Model)
+            {
+                <div class="product_item is_new">
+                    <div class="product_border"></div>
+                    <a href="/chi-tiet/@item.MetaTitle-@item.ID">
+                        <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="@item.Images" alt="@item.Name" style="max-height:150px;max-width:150px"></div>
+                        <div class="product_content">
+                            <div class="product_price">@String.Format("{0:0,0}", @item.Price) VNĐ</div>
+                            <div class="name" style="margin-left:20px;margin-right:25px"><div><a href="#" tabindex="0">@item.Name</a></div></div>
+                        </div>
+                        <div class="product_fav"><i class="fas fa-heart"></i></div>
+                        <ul class="product_marks">
+                            <li class="product_mark product_discount">-25%</li>
+                            <li class="product_mark product_new">new</li>
+                        </ul>
+                    </a>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <h2>Không tìm thấy sản phẩm</h2>
+    }
+
+</div>
+
+<section>
+    @{Html.RenderAction("Menubottom", "Home");}
+</section>

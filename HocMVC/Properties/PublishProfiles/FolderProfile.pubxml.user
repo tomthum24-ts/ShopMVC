@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\Code\3. Wed\7. MVC\Cu\HocMVC\bin\Release\Publish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\MSI\Desktop\ShopMVC\HocMVC\bin\Release\Publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/Admin/Views/AdmHome/Index.cshtml">
@@ -40,22 +40,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/24/2020 20:35:38</publishTime>
     </File>
     <File Include="Areas/Admin/Views/ProCategory/Index.cshtml">
-      <publishTime>10/16/2020 16:03:21</publishTime>
+      <publishTime>02/11/2020 15:27:04</publishTime>
     </File>
     <File Include="Areas/Admin/Views/ProCategory/LoadData.cshtml">
-      <publishTime>10/16/2020 16:03:24</publishTime>
+      <publishTime>02/11/2020 15:31:42</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Product/Create.cshtml">
-      <publishTime>09/24/2020 14:11:07</publishTime>
+      <publishTime>02/11/2020 17:34:48</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Product/Edit.cshtml">
       <publishTime>09/17/2020 17:24:20</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Product/Index.cshtml">
-      <publishTime>10/16/2020 15:30:29</publishTime>
+      <publishTime>02/11/2020 16:17:03</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Shared/_Layout.cshtml">
-      <publishTime>10/20/2020 09:52:25</publishTime>
+      <publishTime>10/28/2020 14:45:21</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Shared/_MenuLeft.cshtml">
       <publishTime>10/16/2020 14:24:10</publishTime>
@@ -81,6 +81,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Areas/Admin/Views/_ViewStart.cshtml">
       <publishTime>08/11/2020 10:30:47</publishTime>
     </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>01/28/2015 14:36:58</publishTime>
+    </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
@@ -100,10 +103,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/16/2020 20:38:56</publishTime>
     </File>
     <File Include="bin/HocMVC.dll">
-      <publishTime>10/24/2020 13:51:31</publishTime>
+      <publishTime>06/07/2021 00:46:08</publishTime>
     </File>
     <File Include="bin/HocMVC.pdb">
-      <publishTime>10/24/2020 13:51:31</publishTime>
+      <publishTime>06/07/2021 00:46:08</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -112,13 +115,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/Model.dll">
-      <publishTime>10/24/2020 13:42:29</publishTime>
+      <publishTime>06/07/2021 00:36:11</publishTime>
     </File>
     <File Include="bin/Model.dll.config">
       <publishTime>09/14/2020 13:39:54</publishTime>
     </File>
     <File Include="bin/Model.pdb">
-      <publishTime>10/24/2020 13:42:29</publishTime>
+      <publishTime>06/07/2021 00:36:11</publishTime>
+    </File>
+    <File Include="bin/mustache-sharp.dll">
+      <publishTime>07/15/2018 22:55:38</publishTime>
+    </File>
+    <File Include="bin/Mustache.dll">
+      <publishTime>12/10/2016 11:16:16</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>04/25/2013 15:40:12</publishTime>
@@ -268,25 +277,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/24/2018 13:38:24</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>02/01/2018 12:16:32</publishTime>
+      <publishTime>01/02/2018 12:16:32</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>02/11/2014 15:26:04</publishTime>
+      <publishTime>11/02/2014 15:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>02/01/2018 12:16:56</publishTime>
+      <publishTime>01/02/2018 12:16:56</publishTime>
     </File>
     <File Include="bin/System.Web.Webpages.Deployment.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Webpages.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Webpages.Razor.dll">
-      <publishTime>02/01/2018 12:20:56</publishTime>
+      <publishTime>01/02/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>07/17/2013 17:03:52</publishTime>
@@ -3949,16 +3958,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/31/2020 16:17:41</publishTime>
     </File>
     <File Include="Public/Controller/CategoryController.js">
-      <publishTime>08/20/2020 14:29:35</publishTime>
+      <publishTime>10/29/2020 16:50:23</publishTime>
     </File>
     <File Include="Public/Controller/contentController.js">
       <publishTime>08/19/2020 14:11:59</publishTime>
     </File>
     <File Include="Public/Controller/ProcateController.js">
-      <publishTime>10/19/2020 10:58:08</publishTime>
+      <publishTime>11/02/2020 15:30:16</publishTime>
     </File>
     <File Include="Public/Controller/ProductController.js">
-      <publishTime>09/06/2020 19:34:27</publishTime>
+      <publishTime>10/29/2020 16:58:21</publishTime>
     </File>
     <File Include="Public/Controller/UserController.js">
       <publishTime>08/17/2020 15:41:02</publishTime>
@@ -4039,7 +4048,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/01/2020 14:00:17</publishTime>
     </File>
     <File Include="Public/dist/css/Layout.css">
-      <publishTime>10/23/2020 11:26:06</publishTime>
+      <publishTime>06/06/2021 22:58:00</publishTime>
     </File>
     <File Include="Public/dist/img/AdminLTELogo.png">
       <publishTime>08/11/2020 10:44:13</publishTime>
@@ -4158,11 +4167,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Public/dist/js/demo.js">
       <publishTime>08/17/2020 17:29:04</publishTime>
     </File>
+    <File Include="Public/dist/js/jquery-1.10.2.min.js">
+      <publishTime>10/28/2020 14:20:27</publishTime>
+    </File>
     <File Include="Public/dist/js/jquery-ui.js">
       <publishTime>09/01/2020 13:59:30</publishTime>
     </File>
+    <File Include="Public/dist/js/jquery.unobtrusive-ajax.js">
+      <publishTime>10/28/2020 10:20:23</publishTime>
+    </File>
+    <File Include="Public/dist/js/jquery.unobtrusive-ajax.min.js">
+      <publishTime>10/28/2020 10:20:23</publishTime>
+    </File>
     <File Include="Public/dist/js/mustache.min.js">
-      <publishTime>09/25/2020 11:45:15</publishTime>
+      <publishTime>10/28/2020 17:21:34</publishTime>
     </File>
     <File Include="Public/dist/js/pages/dashboard.js">
       <publishTime>08/11/2020 10:44:13</publishTime>
@@ -4678,7 +4696,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/26/2020 14:44:39</publishTime>
     </File>
     <File Include="Public/Layout/styles/shop_styles.css">
-      <publishTime>10/08/2020 16:39:36</publishTime>
+      <publishTime>06/06/2021 23:05:52</publishTime>
     </File>
     <File Include="Public/plugins/.npmignore">
       <publishTime>08/11/2020 10:44:08</publishTime>
@@ -9792,6 +9810,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>08/11/2020 10:28:09</publishTime>
     </File>
+    <File Include="Scripts/mustache.js">
+      <publishTime>10/28/2020 16:27:43</publishTime>
+    </File>
     <File Include="Views/About/Index.cshtml">
       <publishTime>09/10/2020 16:36:48</publishTime>
     </File>
@@ -9799,49 +9820,52 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/22/2020 16:42:20</publishTime>
     </File>
     <File Include="Views/Cart/Payment.cshtml">
-      <publishTime>10/23/2020 14:45:34</publishTime>
+      <publishTime>10/25/2020 02:07:07</publishTime>
     </File>
     <File Include="Views/Cart/Success.cshtml">
-      <publishTime>09/08/2020 13:11:06</publishTime>
+      <publishTime>08/09/2020 13:11:06</publishTime>
     </File>
     <File Include="Views/Contact/Index.cshtml">
       <publishTime>08/24/2020 16:57:27</publishTime>
     </File>
     <File Include="Views/Content/Detail.cshtml">
-      <publishTime>10/08/2020 15:14:56</publishTime>
+      <publishTime>10/13/2020 15:25:56</publishTime>
     </File>
     <File Include="Views/Content/Index.cshtml">
-      <publishTime>10/08/2020 15:11:52</publishTime>
+      <publishTime>08/10/2020 15:11:52</publishTime>
     </File>
     <File Include="Views/Error/PageNotFound.cshtml">
       <publishTime>09/11/2020 15:12:43</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>10/23/2020 11:44:18</publishTime>
+      <publishTime>06/07/2021 00:04:02</publishTime>
     </File>
     <File Include="Views/Product/Category.cshtml">
       <publishTime>10/22/2020 16:52:13</publishTime>
     </File>
     <File Include="Views/Product/Detail.cshtml">
-      <publishTime>10/23/2020 17:30:05</publishTime>
+      <publishTime>06/06/2021 23:55:55</publishTime>
     </File>
     <File Include="Views/Product/Index.cshtml">
       <publishTime>10/23/2020 11:54:51</publishTime>
+    </File>
+    <File Include="Views/Product/ProductCategory.cshtml">
+      <publishTime>10/27/2020 10:53:31</publishTime>
     </File>
     <File Include="Views/Product/Search.cshtml">
       <publishTime>10/22/2020 16:55:44</publishTime>
     </File>
     <File Include="Views/Shared/AddItem.cshtml">
-      <publishTime>10/22/2020 17:20:15</publishTime>
+      <publishTime>05/30/2021 22:41:19</publishTime>
     </File>
     <File Include="Views/Shared/CategoryMain.cshtml">
-      <publishTime>10/22/2020 15:50:02</publishTime>
+      <publishTime>10/27/2020 09:44:56</publishTime>
     </File>
     <File Include="Views/Shared/HeaderCart.cshtml">
       <publishTime>09/10/2020 17:14:16</publishTime>
     </File>
     <File Include="Views/Shared/Mainmenu.cshtml">
-      <publishTime>09/17/2020 11:51:58</publishTime>
+      <publishTime>02/11/2020 13:36:52</publishTime>
     </File>
     <File Include="Views/Shared/MainmenuMobile.cshtml">
       <publishTime>09/09/2020 13:51:33</publishTime>
@@ -9859,7 +9883,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/17/2020 11:09:17</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/24/2020 13:34:59</publishTime>
+      <publishTime>06/07/2021 00:45:03</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>08/11/2020 10:26:39</publishTime>
@@ -9868,7 +9892,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/11/2020 10:28:03</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/24/2020 13:51:33</publishTime>
+      <publishTime>06/07/2021 00:36:19</publishTime>
     </File>
   </ItemGroup>
 </Project>

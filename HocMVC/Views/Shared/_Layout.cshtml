@@ -10,17 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/bootstrap4/bootstrap.min.css">
     <link href="/Public/Layout/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/OwlCarousel2-2.2.1/animate.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/shop_styles.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/shop_responsive.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/blog_styles.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/blog_responsive.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/product_styles.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/product_responsive.css">
-    <link rel="stylesheet" type="text/css" href="/Public/Layout/styles/Layout.css">
+    @System.Web.Optimization.Styles.Render("~/Layout/styles")
     <link href="/Public/Layout/styles/bootstrap4/jquery-ui.css" rel="stylesheet" />
     <link href="/Public/dist/css/Layout.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -29,30 +19,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.4.2/sweetalert2.min.css" />
     <style>
 
-.card {
-    position: relative;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid #d2d2dc;
-    border-radius: 11px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
-    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
-}
+        .card {
+            position: relative;
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid #d2d2dc;
+            border-radius: 11px;
+            -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+            box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+        }
 
-.media img {
-    width: 60px;
-    height: 60px
-}
+        .media img {
+            width: 60px;
+            height: 60px
+        }
 
-.reply a {
-    text-decoration: none
-}
+        .reply a {
+            text-decoration: none
+        }
     </style>
     @{Html.RenderAction("Script_Header", "Home");}
 </head>

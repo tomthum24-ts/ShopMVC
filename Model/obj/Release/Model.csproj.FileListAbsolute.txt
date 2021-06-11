@@ -30,3 +30,19 @@ D:\Code\3. Wed\7. MVC\Cu\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
 D:\Code\3. Wed\7. MVC\Cu\Model\obj\Release\Model.csproj.CopyComplete
 D:\Code\3. Wed\7. MVC\Cu\Model\obj\Release\Model.dll
 D:\Code\3. Wed\7. MVC\Cu\Model\obj\Release\Model.pdb
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\Model.dll.config
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\Model.dll
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\Model.pdb
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\EntityFramework.dll
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\PagedList.dll
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\PagedList.Mvc.dll
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\EntityFramework.xml
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\PagedList.xml
+C:\Users\MSI\Desktop\ShopMVC\Model\bin\Release\PagedList.Mvc.xml
+C:\Users\MSI\Desktop\ShopMVC\Model\obj\Release\Model.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\ShopMVC\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\ShopMVC\Model\obj\Release\Model.csproj.CopyComplete
+C:\Users\MSI\Desktop\ShopMVC\Model\obj\Release\Model.dll
+C:\Users\MSI\Desktop\ShopMVC\Model\obj\Release\Model.pdb

@@ -14,7 +14,8 @@
                     <div class="single_post_text">
                         <p alt="@Model.Name">@Model.Description</p>
                         <div class="single_post_quote text-center">
-                            <div class="quote_image"><img src="@Model.Image" alt="@Model.Name"></div>
+
+                            <div class="quote_image"><img class="mx-auto d-block" style="width:90%" src="@Model.Image" alt="@Model.Name"></div>
                             <div class="quote_text">@Html.Raw(@Model.Detail)</div>
                         </div>
                     </div>

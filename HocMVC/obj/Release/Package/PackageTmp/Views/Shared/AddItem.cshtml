@@ -58,37 +58,40 @@
     }
     }
 </style>
-@if (Model.Count > 0)
+@using (Html.BeginForm("AddItem", "Cart", FormMethod.Post))
 {
-    <nav class="navbar navbar-expand-md  fixed-bottom d-lg-none" style="background-color:#0e8ce4;border-radius: 30px;">
-        @*<a href="https://zalo.me/0783736892"><div class="col" style="width:20%"><img src="~/Public/zalo2.png" style="max-height:30px;max-width:50px"></div></a>*@
+    if (Model.Count > 0)
+    {
+        <nav class="navbar navbar-expand-md  fixed-bottom d-lg-none" style="background-color:#0e8ce4;border-radius: 30px;">
+            @*<a href="https://zalo.me/0783736892"><div class="col" style="width:20%"><img src="~/Public/zalo2.png" style="max-height:30px;max-width:50px"></div></a>*@
 
-        <a href="/gio-hang">
-            <div class="col" style="width:20%">
-                <img src="~/Public/Cart1.png" alt="" style="max-height:30px;max-width:50px">
-                <div class="cart_icon">
-                    <div class="cart_count" style="background-color:#FF4500"><span>@Model.Count</span></div>
+            <a href="/gio-hang">
+                <div class="col" style="width:20%">
+                    <img src="~/Public/Cart1.png" alt="" style="max-height:30px;max-width:50px">
+                    <div class="cart_icon">
+                        <div class="cart_count" style="background-color:#FF4500"><span>@Model.Count</span></div>
+                    </div>
                 </div>
-            </div>
-        </a>
-        <button type="submit" class="btn btn-danger btn-lg"><strong>Cho vào giỏ<i class="fas fa-cart-plus"></i></strong></button>
-        <a href="tel:0783736892"><div class="col" style="width:20%"><img class="call" src="~/Public/call.png" style="max-height:30px;max-width:50px"></div></a>
-    </nav>
-}
-else
-{
-    <nav class="navbar navbar-expand-md  fixed-bottom d-lg-none" style="background-color:#0e8ce4;border-radius: 30px;">
-        @*<a href="https://zalo.me/0783736892"><div class="col" style="width:20%"><img src="~/Public/zalo2.png" style="max-height:30px;max-width:50px"></div></a>*@
+            </a>
+            <button id="button" type="submit" class="btn btn-danger btn-lg"><strong>Cho vào giỏ<i class="fas fa-cart-plus"></i></strong></button>
+            <a href="tel:0783736892"><div class="col" style="width:20%"><img class="call" src="~/Public/call.png" style="max-height:30px;max-width:50px"></div></a>
+        </nav>
+    }
+    else
+    {
+        <nav class="navbar navbar-expand-md  fixed-bottom d-lg-none" style="background-color:#0e8ce4;border-radius: 30px;">
+            @*<a href="https://zalo.me/0783736892"><div class="col" style="width:20%"><img src="~/Public/zalo2.png" style="max-height:30px;max-width:50px"></div></a>*@
 
-        <a href="/gio-hang">
-            <div class="col" style="width:20%">
-                <img src="~/Public/Cart1.png" alt="" style="max-height:30px;max-width:50px">
-                <div class="cart_icon">
-                    <div class="cart_count" style="background-color:#FF4500"><span>0</span></div>
+            <a href="/gio-hang">
+                <div class="col" style="width:20%">
+                    <img src="~/Public/Cart1.png" alt="" style="max-height:30px;max-width:50px">
+                    <div class="cart_icon">
+                        <div class="cart_count" style="background-color:#FF4500"><span>0</span></div>
+                    </div>
                 </div>
-            </div>
-        </a>
-        <button type="submit" class="btn btn-danger btn-lg"><strong>Cho vào giỏ<i class="fas fa-cart-plus"></i></strong></button>
-        <a href="tel:0783736892"><div class="col" style="width:20%"><img class="call" src="~/Public/call.png" style="max-height:30px;max-width:50px"></div></a>
-    </nav>
+            </a>
+            <button id="button" type="submit" class="btn btn-danger btn-lg"><strong>Cho vào giỏ<i class="fas fa-cart-plus"></i></strong></button>
+            <a href="tel:0783736892"><div class="col" style="width:20%"><img class="call" src="~/Public/call.png" style="max-height:30px;max-width:50px"></div></a>
+        </nav>
+    }
 }
