@@ -1,0 +1,69 @@
+﻿@model List<Model.ViewModel.CommentViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Danh sách Comment</h3>
+        <div class="form-group">
+            <a href="/Admin/Comment/Create">
+                <button class="btn btn-success btn-lg float-right"
+                        type="submit">
+                    Thêm mới
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
+        <table id="example1" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Hình ảnh</th>
+                    <th>Câu hỏi</th>
+                    <th>Câu trả lời</th>
+                    <th>Tên người hỏi</th>
+                    <th>Trạng thái</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.ID">
+                        <td>@item.TenSanPham</td>
+                        <td><img src="@item.hinhSanPham" class="img-responsive" style=" width:40px; height:40px;" /></td>
+                        <td>@item.CauHoi </td>
+                        <td>@item.CauTraLoi</td>
+                        <td>@item.TenNguoiHoi</td>
+                        <td><a href="#" class="btn-active" data-id="@item.ID">@Html.Raw(item.TrangThai ? "Kích hoạt" : "Khoá")</a></td>
+                        <td>
+                            <a href="/Admin/product/Edit/@item.ID">Sửa</a>
+                            |
+                            @Ajax.ActionLink("Xoá", "Delete", new { @id = item.ID }, new AjaxOptions
+                       {
+                           Confirm = "Bạn có muốn xoá bản ghi này?",
+                           OnComplete = "$('#row_" + @item.ID + "').remove()",
+                           HttpMethod = "Delete"
+                       })
+                        </td>
+                    </tr>
+                }
+
+
+
+            </tbody>
+
+        </table>
+        @*@Html.PagedListPager(Model,Page=>Url.Action("Index",new {Page }))*@
+    </div>
+    <!-- /.card-body -->
+</div>
+
+
+
+
