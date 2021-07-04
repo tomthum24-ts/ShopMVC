@@ -27,8 +27,8 @@
 	{
 		// Paste your license name and key here. If left blank, CKFinder will
 		// be fully functional, in Demo Mode.
-		LicenseName = "";
-		LicenseKey = "";
+		LicenseName = "tom";
+		LicenseKey = "AEJH13TL3VJQ2738E9SNYRQAW86XWPNX";
 
 		// The base URL used to reach files in CKFinder through the browser.
 		BaseUrl = "~/Public/Images/";

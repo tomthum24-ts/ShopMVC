@@ -26,7 +26,6 @@
                     <th>Câu hỏi</th>
                     <th>Câu trả lời</th>
                     <th>Tên người hỏi</th>
-                    <th>Trạng thái</th>
                     <th>#</th>
                 </tr>
             </thead>
@@ -40,9 +39,8 @@
                         <td>@item.CauHoi </td>
                         <td>@item.CauTraLoi</td>
                         <td>@item.TenNguoiHoi</td>
-                        <td><a href="#" class="btn-active" data-id="@item.ID">@Html.Raw(item.TrangThai ? "Kích hoạt" : "Khoá")</a></td>
                         <td>
-                            <a href="/Admin/product/Edit/@item.ID">Sửa</a>
+                            <a href="/Admin/Comment/Edit/@item.ID">Sửa</a>
                             |
                             @Ajax.ActionLink("Xoá", "Delete", new { @id = item.ID }, new AjaxOptions
                        {
@@ -53,9 +51,6 @@
                         </td>
                     </tr>
                 }
-
-
-
             </tbody>
 
         </table>

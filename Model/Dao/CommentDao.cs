@@ -31,9 +31,15 @@ namespace Model.Dao
         }
         public long Insert(Comment entity)
         {
+            entity.TenNguoiHoi = entity.TenNguoiHoi.ToUpper();
+            entity.CreatedDate = DateTime.Now;
             db.Comments.Add(entity);
             db.SaveChanges();
             return entity.Id;
+        }
+        public Comment GetbyID(long id)
+        {
+            return db.Comments.Find(id);
         }
         public bool Update(Comment entity)
         {
@@ -65,4 +71,4 @@ namespace Model.Dao
             return content.Isdelete;
         }
     }
-}
+} 

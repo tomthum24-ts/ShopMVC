@@ -20,17 +20,17 @@ namespace Model.Dao
         //lấy danh sách sản phẩm mới
         public List<Product> ListnewProduct(int top)
         {
-            return db.Products.OrderByDescending(x => x.CreatedDate).Where(x=>x.Status==true).Take(top).ToList();
+            return db.Products.OrderByDescending(x => x.CreatedDate).Where(x=>x.Status==false&& x.TopHot == false).Take(top).ToList();
         }
         //Lấy danh sách sản phẩm hót
         public List<Product> ListHot(int top)
         {
-            return db.Products.Where(x => x.TopHot == true&& x.Status==true).OrderByDescending(x => x.CreatedDate).Take(top).ToList();
+            return db.Products.Where(x => x.TopHot == true&& x.Status==false).OrderByDescending(x => x.CreatedDate).Take(top).ToList();
         }
         public List<Product> ListCat(int top, long id)
         {
 
-            return db.Products.Where(x => x.Status==true&& x.CategoryID==id).OrderByDescending(x => x.CreatedDate).Take(top).ToList();
+            return db.Products.Where(x => x.Status==false&& x.CategoryID==id).OrderByDescending(x => x.CreatedDate).Take(top).ToList();
         }
         //Xem chi tiết sản phẩm
         public Product ViewDetail(long id)
@@ -144,7 +144,7 @@ namespace Model.Dao
         //Get product
         public List<Product> ListAll()
         {
-            return db.Products.Where(x => x.Status == true).OrderByDescending(x=>x.CreatedDate).ToList();
+            return db.Products.Where(x => x.Status == false).OrderByDescending(x=>x.CreatedDate).ToList();
         }
         //Insert product
         public long Insert(Product entity)

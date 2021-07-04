@@ -67,7 +67,7 @@ namespace HocMVC.Areas.Admin.Controllers
                 }
                 else
                 {
-                    SetAlert("Thêm user thành công", "alert-danger");
+                    SetAlert("Cập nhật sản phẩm thất bại", "alert-danger");
                     ModelState.AddModelError("", "cập nhật sản phần thất bại");
                 }
             }

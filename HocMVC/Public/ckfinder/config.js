@@ -15,3 +15,22 @@ CKFinder.customConfig = function( config )
 	// config.removePlugins = 'basket';
 
 };
+ CKEDITOR.on('dialogDefinition', function (ev) {
+
+       var dialogName = ev.data.name,
+           dialogDefinition = ev.data.definition;
+
+       if (dialogName == 'image') {
+           var onOk = dialogDefinition.onOk;
+
+           dialogDefinition.onOk = function (e) {
+               var width = this.getContentElement('info', 'txtWidth');
+               width.setValue('0');//Set Default Width
+
+               var height = this.getContentElement('info', 'txtHeight');
+               height.setValue('80%');//Set Default height
+
+               onOk && onOk.apply(this, e);
+           };
+       }
+});
